@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pastelería Launch X</title>
+    <style>
+      body {
+        font: normal 12px Verdana, Arial, sans-serif;
+        background: rgb(183, 0, 255);
+        background: linear-gradient(
+          6deg,
+          rgb(243, 211, 255) 0%,
+          rgba(252, 145, 45, 0.11) 100%
+        );
+      }
+
+      .wrapper {
+        width: 90%;
+        max-width: 900px;
+      }
+
+      .wrapper .inner {
+        width: 50%;
+      }
+
+      nav ul {
+        list-style: none;
+        display: inline-block;
+        padding: 18px;
+      }
+
+      nav ul li {
+        float: left;
+        margin-top: 20px;
+      }
+
+      nav ul li a {
+        color: rgb(63, 0, 39);
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 18px;
+      }
+
+      nav ul li a:hover {
+        background-color: #929fb3;
+      }
+/*CSS tabla*/
+table.paleBlueRows {
+  font-family: "Times New Roman", Times, serif;
+  border: 1px solid #FFFFFF;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.paleBlueRows td, table.paleBlueRows th {
+  border: 1px solid #FFFFFF;
+  padding: 3px 2px;
+}
+table.paleBlueRows tbody td {
+  font-size: 13px;
+}
+table.paleBlueRows tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.paleBlueRows thead {
+  background: #0B6FA4;
+  border-bottom: 5px solid #FFFFFF;
+}
+table.paleBlueRows thead th {
+  font-size: 17px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #FFFFFF;
+}
+table.paleBlueRows thead th:first-child {
+  border-left: none;
+}
+
+table.paleBlueRows tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+  background: #D0E4F5;
+  border-top: 3px solid #444444;
+}
+table.paleBlueRows tfoot td {
+  font-size: 14px;
+}
+
+    </style>
+  </head>
+  <body>
+    <main class="wrapper">
+      <header>
+        <img src="./images/banner.png" alt="Pasteles Launch X" />
+        <h1 style="text-align: center;">Página Administrador</h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="#pedidos">Pedidos</a></li>
+        </ul>
+      ></nav>
+      <section class="" id="sabores">
+        <h1>Listado de Pedidos</h2>
+        <br><br>
+        <table class="paleBlueRows">
+          <thead>
+          <tr>
+          <th>Cliente</th>
+          <th>Telefono</th>
+          <th>Correo</th>
+          <th>Descripción</th>
+          <th>Sabores</th>
+          <th>Adornos</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+          <td>Alfonso</td>
+          <td>8681111111</td>
+          <td>elgatoconbotas@yahoo.com</td>
+          <td>muy grande</td>
+          <td>Chocoflan</td>
+          <td>Vela Feliz Cumpleaños</td>
+          </tr>
+          <tr>
+          <td>Eduardo</td>
+          <td>8681111112</td>
+          <td>superman@yahoo.com</td>
+          <td>pequeño</td>
+          <td>Nuez</td>
+          <td>Caja de velas</td>
+          </tr>
+          <tr>
+          <td>Gabriel</td>
+          <td>8681111113</td>
+          <td>batman@yahoo.com</td>
+          <td>muy oscuro</td>
+          <td>Hershey</td>
+          <td>Vela luminosa</td>
+          </tr>
+          </tbody>
+          </table>
+
+          <br><br>
+          <h1>Cantidad de sabores restantes</h1>{
+            <table class="paleBlueRows">
+            <thead>
+            <tr>
+            <th>Chocoflan</th>
+            <th>Chocolate</th>
+            <th>Hershey</th>
+            <th>Fresas con crema</th>
+            <th>Nuez</th>
+            <th>Zanahoria</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td>50</td>
+            <td>128</td>
+            <td>32</td>
+            <td>64</td>
+            <td>10</td>
+            <td>2</td>
+            </tr>
+            </tbody>
+            </table>
+
+            <br><br>
+          <h1>Cantidad de adornos restantes</h1>{
+            <table class="paleBlueRows">
+            <thead>
+            <tr>
+            <th>Caja de velas</th>
+            <th>Vela Feliz Cumpleaños</th>
+            <th>Vela Happy Birthday</th>
+            <th>Vela luminosa</th>
+            <th>Vela mágica torneada</th>
+            <th>Velas espiral</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td>100</td>
+            <td>128</td>
+            <td>200</td>
+            <td>64</td>
+            <td>10</td>
+            <td>500</td>
+            </tr>
+            </tbody>
+            </table>
+      </section>
+    
+    </main>
+    <footer></footer>
+    <script type="text/javascript">
+        //auto expand textarea
+        function adjust_textarea(h) {
+            h.style.height = "20px";
+            h.style.height = (h.scrollHeight)+"px";
+        }
+        </script>  
+</body>
+</html>

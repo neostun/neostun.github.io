@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pastelería Launch X</title>
+    <style>
+      body {
+        font: normal 12px Verdana, Arial, sans-serif;
+        background: rgb(183, 0, 255);
+        background: linear-gradient(
+          6deg,
+          rgb(243, 211, 255) 0%,
+          rgba(252, 145, 45, 0.11) 100%
+        );
+      }
+
+      .wrapper {
+        width: 90%;
+        max-width: 900px;
+      }
+
+      .wrapper .inner {
+        width: 50%;
+      }
+
+      nav ul {
+        list-style: none;
+        display: inline-block;
+        padding: 18px;
+      }
+
+      nav ul li {
+        float: left;
+        margin-top: 20px;
+      }
+
+      nav ul li a {
+        color: rgb(63, 0, 39);
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 18px;
+      }
+
+      nav ul li a:hover {
+        background-color: #929fb3;
+      }
+      /* DivTable.com */
+      .divTable {
+        display: table;
+        width: 100%;
+      }
+      .divTableRow {
+        display: table-row;
+      }
+      .divTableHeading {
+        background-color: #eee;
+        display: table-header-group;
+      }
+      .divTableCell,
+      .divTableHead {
+        border: 1px solid #ffa5eb;
+        display: table-cell;
+        padding: 3px 10px;
+      }
+      .divTableHeading {
+        background-color: #eee;
+        display: table-header-group;
+        font-weight: bold;
+      }
+      .divTableFoot {
+        background-color: #eee;
+        display: table-footer-group;
+        font-weight: bold;
+      }
+      .divTableBody {
+        display: table-row-group;
+      }
+      .pastel {
+        width: 250px;
+      }
+      figcaption {
+        text-align: center;
+        font-size: larger;
+      }
+      figcaption.h2 {
+        font-size: large;
+        font-weight: bolder;
+      }
+      figure, img {
+        border-radius: 8%;
+      }
+      /*forms*/
+      
+      .form-style-4{
+	width: 450px;
+	font-size: 16px;
+	/*padding: 0px 30px 15px 30px;*/
+}
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button],
+.form-style-4 input[type=text],
+.form-style-4 input[type=email],
+.form-style-4 input[type=tel],
+.form-style-4 textarea,
+.form-style-4 label
+{
+	font-size: 16px;
+
+}
+.form-style-4 label > span{
+	display: inline-block;
+	float: left;
+	width: 150px;
+}
+.form-style-4 input[type=text],
+.form-style-4 input[type=tel],
+.form-style-4 input[type=email] 
+{
+	background: transparent;
+	border: none;
+	border-bottom: 1px dashed #83A4C5;
+	width: 275px;
+	outline: none;
+	padding: 0px 0px 0px 0px;
+	font-style: italic;
+}
+.form-style-4 textarea{
+	font-style: italic;
+	padding: 0px 0px 0px 0px;
+	background: transparent;
+	outline: none;
+	border: none;
+	border-bottom: 1px dashed #83A4C5;
+	width: 275px;
+	overflow: hidden;
+	resize:none;
+	height:20px;
+}
+
+
+
+    </style>
+  </head>
+  <body>
+    <main class="wrapper">
+      <header>
+        <img src="./images/banner.png" alt="Pasteles Launch X" />
+        <h1 style="text-align: center;">Bienvenidos a Pasteles Launch X</h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="#sabores">Nuestros sabores</a></li>
+          <li><a href="#adornos">Nuestros adornos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      ></nav>
+      <section class="" id="sabores">
+        <h2>Gran variedad de sabores</h2>
+        <div class="divTable">
+          <div class="divTableBody">
+            <div class="divTableRow">
+              <div class="divTableCell">
+                <figure>
+                  <img
+                    src="./images/chocoflan.jpg"
+                    alt="Chocoflan"
+                    class="pastel"
+                  />
+                  <figcaption class="h2">Chocoflan.</figcaption>
+                  <figcaption>Precio: 100 USD</figcaption>
+                </figure>
+              </div>
+              <div class="divTableCell">
+                <figure>
+                  <img
+                    src="./images/chocolate.jpg"
+                    alt="Chocoflan"
+                    class="pastel"
+                  />
+                  <figcaption class="h2">Chocolate.</figcaption>
+                  <figcaption>Precio: 100 USD</figcaption>
+                </figure>
+              </div>
+              <div class="divTableCell">
+                <figure>
+                  <img
+                    src="./images/hershey.jpg"
+                    alt="Chocoflan"
+                    class="pastel"
+                  />
+                  <figcaption class="h2">Hershey.</figcaption>
+                  <figcaption>Precio: 100 USD</figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="divTableRow">
+              <div class="divTableCell">
+                <figure>
+                  <img
+                    src="./images/fresasconccrema.jpg"
+                    alt="Chocoflan"
+                    class="pastel"
+                  />
+                  <figcaption class="h2">Fresas con crema.</figcaption>
+                  <figcaption>Precio: 100 USD</figcaption>
+                </figure>
+              </div>
+              <div class="divTableCell">
+                <figure>
+                  <img src="./images/nuez.jpg" alt="Chocoflan" class="pastel" />
+                  <figcaption class="h2">Nuez.</figcaption>
+                  <figcaption>Precio: 100 USD</figcaption>
+                </figure>
+              </div>
+              <div class="divTableCell">
+                <figure>
+                  <img
+                    src="./images/zanahoria.jpg"
+                    alt="Chocoflan"
+                    class="pastel"
+                  />
+                  <figcaption class="h2">Zanahoria.</figcaption>
+                  <figcaption>Precio: 100 USD</figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- DivTable.com -->
+      </section>
+      <section id="adornos">
+          <br/>
+        <h2>Gran variedad de sabores</h2>
+        <div class="divTable">
+          <div class="divTableBody">
+            <div class="divTableRow">
+              <div class="divTableCell">
+                <figure>
+                  <img
+                    src="./images/caja-de-velas_360x.jpg"
+                    alt="Caja de velas"
+                    class="pastel"
+                  />
+                  <figcaption class="h2">Caja de velas</figcaption>
+                  <figcaption>Precio: 10 USD</figcaption>
+                </figure>
+              </div>
+              <div class="divTableCell">
+                <figure>
+                  <img
+                    src="./images/vela-feliz-cumpleanos_360x.jpg"
+                    alt="Chocoflan"
+                    class="pastel"
+                  />
+                  <figcaption class="h2">Vela Feliz Cumpleaños.</figcaption>
+                  <figcaption>Precio: 10 USD</figcaption>
+                </figure>
+              </div>
+              <div class="divTableCell">
+                <figure>
+                  <img
+                    src="./images/vela-happy-birthday_360x.jpg"
+                    alt="Chocoflan"
+                    class="pastel"
+                  />
+                  <figcaption class="h2">Vela Happy Birthday.</figcaption>
+                  <figcaption>Precio: 100 USD</figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="divTableRow">
+              <div class="divTableCell">
+                <figure>
+                  <img
+                    src="./images/vela-luminosa_360x.jpg"
+                    alt="Chocoflan"
+                    class="pastel"
+                  />
+                  <figcaption class="h2">Vela luminosa.</figcaption>
+                  <figcaption>Precio: 10 USD</figcaption>
+                </figure>
+              </div>
+              <div class="divTableCell">
+                <figure>
+                  <img src="./images/vela-magica-torneada_360x.jpg" alt="Chocoflan" class="pastel" />
+                  <figcaption class="h2">Vela mágica torneada.</figcaption>
+                  <figcaption>Precio: 10 USD</figcaption>
+                </figure>
+              </div>
+              <div class="divTableCell">
+                <figure>
+                  <img
+                    src="./images/velas-espiral_360x.jpg"
+                    alt="Chocoflan"
+                    class="pastel"
+                  />
+                  <figcaption class="h2">Velas espiral.</figcaption>
+                  <figcaption>Precio: 50 USD</figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contacto">
+          <br>
+          <h1>¡Haga su pedido!</h1>
+        <form class="form-style-4" action="" method="post">
+        <label for="Input1"> Tu nombre :</label>
+        <!-- Entradas / Inputs -->
+        <input type="text" id="Input1" name="Input1" />
+        <br /><br />
+        <label for="tel1">Número de Teléfono: </label>
+        <input type="tel" id="tel1" name="tel1" maxlength="10" /><br /><br />
+        <label for="correo1">Correo electrónico: </label>
+        <input type="email" id="correo1" name="correo1" /><br /><br />
+        <label for="textarea"> Descripción general del pastel :</label>
+        <!-- Entradas / Inputs -->
+        <textarea name="field4" onkeyup="adjust_textarea(this)" required="true"></textarea>        <br /><br />
+
+
+        <h2>¿Que sabores desea elegir?</h2><br>
+        <input type="checkbox" id="Chocoflan" name="Chocoflan" value="Chocoflan">
+        <label for="vainilla1">Chocoflan</label><br>
+        <input type="checkbox" id="Chocolate" name="Chocolate" value="Chocolate">
+        <label for="zanahoria1">Chocolate</label><br>
+        <input type="checkbox" id="Fresasconcrema" name="Fresasconcrema" value="Fresasconcrema">
+        <label for="chocolate1">Fresasconcrema</label><br>
+        <input type="checkbox" id="Hershey" name="Hershey" value="Hershey">
+        <label for="fresa1">Hershey</label><br>
+        <input type="checkbox" id="Nuez" name="Nuez" value="Nuez">
+        <label for="coco1">Nuez</label><br>
+        <input type="checkbox" id="Zanahoria" name="Zanahoria" value="Zanahoria">
+        <label for="piña1">Zanahoria</label><br>
+
+        <h2>¿Que Adornos desea elegir?</h2><br>
+        <input type="checkbox" id="cajadevelas" name="cajadevelas" value="cajadevelas">
+        <label for="quesocrema1">Caja de velas</label><br>
+        <input type="checkbox" id="VelaFelizCumpleaños" name="VelaFelizCumpleaños" value="VelaFelizCumpleaños">
+        <label for="Betunvainilla1">Vela Feliz Cumpleaños</label><br>
+        <input type="checkbox" id="Velaluminosa" name="Velaluminosa" value="Velaluminosa">
+        <label for="fondantblanco1">Vela luminosa</label><br>
+        <input type="checkbox" id="velamagica" name="velamagica" value="velamagica">
+        <label for="fondantchocolate1">Vela mágica torneada.
+        </label><br>
+        <input type="checkbox" id="velahappy" name="velahappy" value="velahappy">
+        <label for="vainillafresa1">Vela Happy Birthday</label><br>
+        <input type="checkbox" id="velaespiral" name="velaespiral" value="velaespiral">
+        <label for="vainillafresa1">Velas espiral</label><br> <br>
+
+        <input type="reset">
+        <input type="submit"><br>
+       
+
+      </section>
+    </main>
+    <footer></footer>
+    <script type="text/javascript">
+        //auto expand textarea
+        function adjust_textarea(h) {
+            h.style.height = "20px";
+            h.style.height = (h.scrollHeight)+"px";
+        }
+        </script>  
+</body>
+</html>
